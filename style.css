@@ -1,0 +1,14 @@
+h1 {
+    color: dodgerblue;
+}
+
+#my-button{
+    padding: 2em 1em;
+    background-color: black;
+    color: white;
+    border: 0px;
+}
+
+#my-button:active{
+    background-color: red;
+}
