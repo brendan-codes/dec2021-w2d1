@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <h1>Dojonary</h1>
+            <input type="text" placeholder="Search!">
+            <button onclick="login(this)">login</button>
+        </div>
+        <div class="columns">
+            <div class="col-3">
+                <div class="word">
+                    <div class="col-1">
+                        <h1>Ninja</h1>
+                        <p>Noun</p>
+                        <p>Plural: ninjas</p>
+                        <button onclick="alertWord()">13 Likes</button>
+                    </div>
+                    <p class="col-3">
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sunt non voluptate, similique accusamus fuga et ullam saepe, suscipit cupiditate, quasi mollitia itaque qui minima harum voluptatibus. Enim, harum quas!
+                    </p>
+                </div>
+                <div class="box" id="area">
+                    <div class="square">1</div>
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="word" id="removedElement">
+                    <div class="col-1">
+                        <h1>Ninja</h1>
+                        <p>Noun</p>
+                        <p>Plural: ninjas</p>
+                        <button onclick="removeElement()">13 Likes</button>
+                    </div>
+                    <p class="col-3">
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sunt non voluptate, similique accusamus fuga et ullam saepe, suscipit cupiditate, quasi mollitia itaque qui minima harum voluptatibus. Enim, harum quas!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
